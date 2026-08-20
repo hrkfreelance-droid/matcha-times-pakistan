@@ -26,7 +26,7 @@
       z-index: 0;
       background:
         linear-gradient(rgba(26, 39, 17, 0.2), rgba(0, 0, 0, 0.4)),
-        url('assets/backgrounds/bg-1.png') center/cover no-repeat;
+        url('assets/backgrounds/pakistan-background.webp') center/cover no-repeat;
     }
 
     .bg::after {
@@ -266,7 +266,7 @@
 
   <script>
     (() => {
-      const backgrounds = ['assets/backgrounds/bg-1.png', 'assets/backgrounds/bg-2.png'];
+      const backgrounds = ['assets/backgrounds/pakistan-background.webp'];
       const selectedBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
       document.querySelector('.bg').style.backgroundImage =
         `linear-gradient(rgba(26, 39, 17, 0.2), rgba(0, 0, 0, 0.4)), url("${selectedBackground}")`;
