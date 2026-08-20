@@ -1,0 +1,9 @@
+{
+  "name": "Matcha Times Pakistan",
+  "short_name": "Matcha Times",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a2711",
+  "theme_color": "#1a2711",
+  "icons": [{"src":"/favicon.svg","sizes":"any","type":"image/svg+xml"}]
+}
